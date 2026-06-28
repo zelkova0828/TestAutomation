@@ -1,0 +1,14 @@
+# パッケージフォルダの除外
+**/node_modules/
+
+# 案件ごとのテスト結果やログ、レポート、スクリーンショットをすべて除外
+**/test-results/
+**/html-report/
+**/run-artifacts/
+**/*.log
+**/*.json
+
+# OSやエディタのキャッシュ
+.DS_Store
+Thumbs.db
+.vscode/
